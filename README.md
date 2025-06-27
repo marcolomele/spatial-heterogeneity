@@ -56,6 +56,12 @@ To address computational complexity, we fit **5 separate models** (one per house
 - **4 independent chains** for convergence diagnostics
 - **Non-centered parametrization** for improved sampling efficiency
 
+## 📡 Main Technologies
+* PyMC – Probabilistic Python Programming
+* Sci-Kit Learn – Machine Learning in Python
+* ArviZ – Exploratory analysis of Bayesian models
+* Pandas – Data manipulation and analysis
+
 ## 🔍 Key Findings
 
 ### Spatial Heterogeneity Rankings
@@ -84,6 +90,7 @@ pip install pymc numpy pandas matplotlib seaborn scipy
 
 ### Repository Structure
 ```
+├── data_model.ipynb  # Ipynb notebook with data processing and modelling. 
 ├── spatial-heterogeneity-report.pdf  # Final project report (PDF)
 ├── Modelling Notes.docx         # Project notes and documentation
 ├── housing.csv                  # Main dataset
