@@ -99,21 +99,6 @@ pip install pymc numpy pandas matplotlib seaborn scipy
 └── README.md                    # Project overview and instructions
 ```
 
-### Quick Start
-```python
-# Load and preprocess data
-from src.data_preprocessing import preprocess_data
-df_clean = preprocess_data('data/raw/melbourne_housing.csv')
-
-# Fit spatial heterogeneity models
-from src.model_fitting import fit_spatial_models
-models = fit_spatial_models(df_clean, features=['Distance', 'Bedroom2', 'Bathroom', 'Car', 'BuildingArea'])
-
-# Analyze spatial heterogeneity
-from src.results_analysis import analyze_spatial_heterogeneity
-heterogeneity_results = analyze_spatial_heterogeneity(models)
-```
-
 ## 📈 Model Validation
 
 ### Convergence Diagnostics
